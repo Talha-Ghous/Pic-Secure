@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5723BB0720BFCAB2000B1F65 /* PhotosUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5723BB0520BFCAB2000B1F65 /* PhotosUI.framework */; };
+		5723BB0820BFCAB2000B1F65 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5723BB0620BFCAB2000B1F65 /* Photos.framework */; };
+		5723BB0A20C00CB2000B1F65 /* reveal-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5723BB0920C00CB2000B1F65 /* reveal-icon.png */; };
+		5723BB0C20C02A05000B1F65 /* ImageProcessingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5723BB0B20C02A05000B1F65 /* ImageProcessingViewController.swift */; };
+		5723BB0F20C02D5B000B1F65 /* Lock-Unlock-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5723BB0D20C02D5A000B1F65 /* Lock-Unlock-icon.png */; };
+		5723BB1020C02D5B000B1F65 /* Lock-Lock-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5723BB0E20C02D5B000B1F65 /* Lock-Lock-icon.png */; };
+		5723BB1320C02E54000B1F65 /* Share-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5723BB1120C02E53000B1F65 /* Share-icon.png */; };
+		5723BB1420C02E54000B1F65 /* Save-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5723BB1220C02E54000B1F65 /* Save-icon.png */; };
+		5723BB1620C1001B000B1F65 /* CustomPhotoAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5723BB1520C1001B000B1F65 /* CustomPhotoAlbum.swift */; };
+		5723BB1920C108B8000B1F65 /* PrivateGalleryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5723BB1820C108B8000B1F65 /* PrivateGalleryCollectionViewController.swift */; };
+		5723BB1B20C108E3000B1F65 /* PrivateGalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5723BB1A20C108E3000B1F65 /* PrivateGalleryCollectionViewCell.swift */; };
+		5723BB1D20C18B37000B1F65 /* refresh_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5723BB1C20C18B37000B1F65 /* refresh_icon.png */; };
+		578020632174B2D6004D1C96 /* notes-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5780205E2174B2D5004D1C96 /* notes-icon.png */; };
+		578020642174B2D6004D1C96 /* recipt-icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5780205F2174B2D5004D1C96 /* recipt-icon.jpg */; };
+		578020652174B2D6004D1C96 /* password-Lock-icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 578020602174B2D5004D1C96 /* password-Lock-icon.jpg */; };
+		578020662174B2D6004D1C96 /* Utility-bills-icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 578020612174B2D6004D1C96 /* Utility-bills-icon.jpg */; };
+		578020672174B2D6004D1C96 /* car-icon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 578020622174B2D6004D1C96 /* car-icon.jpeg */; };
+		578020692174D3A3004D1C96 /* settings-icon-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 578020682174D3A3004D1C96 /* settings-icon-512.png */; };
+		5786371020C2D74100BA7CDC /* TheamsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5786370F20C2D74100BA7CDC /* TheamsTableViewController.swift */; };
+		5786371320C2D80B00BA7CDC /* TheamsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5786371220C2D80B00BA7CDC /* TheamsTableViewCell.swift */; };
+		5786371520C2DABA00BA7CDC /* TheamsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5786371420C2DABA00BA7CDC /* TheamsModel.swift */; };
+		5786371720C303B600BA7CDC /* gallery_icon_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5786371620C303B600BA7CDC /* gallery_icon_1.png */; };
+		5786371920C304C800BA7CDC /* gallery_icon_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5786371820C304C800BA7CDC /* gallery_icon_2.png */; };
+		578C2B1F20BD7BBD00C38F79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578C2B1E20BD7BBD00C38F79 /* AppDelegate.swift */; };
+		578C2B2120BD7BBD00C38F79 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578C2B2020BD7BBD00C38F79 /* LoginViewController.swift */; };
+		578C2B2420BD7BBD00C38F79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 578C2B2220BD7BBD00C38F79 /* Main.storyboard */; };
+		578C2B2720BD7BBD00C38F79 /* Pic_Secure.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 578C2B2520BD7BBD00C38F79 /* Pic_Secure.xcdatamodeld */; };
+		578C2B2920BD7BC000C38F79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 578C2B2820BD7BC000C38F79 /* Assets.xcassets */; };
+		578C2B2C20BD7BC000C38F79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 578C2B2A20BD7BC000C38F79 /* LaunchScreen.storyboard */; };
+		578C2B3520BD7D8C00C38F79 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578C2B3420BD7D8C00C38F79 /* BaseViewController.swift */; };
+		578C2B3C20BDA47600C38F79 /* txtbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 578C2B3B20BDA47600C38F79 /* txtbg.png */; };
+		578C2B4020BDA5EE00C38F79 /* btnlogin.png in Resources */ = {isa = PBXBuildFile; fileRef = 578C2B3D20BDA5ED00C38F79 /* btnlogin.png */; };
+		578C2B4120BDA5EE00C38F79 /* btnsignup.png in Resources */ = {isa = PBXBuildFile; fileRef = 578C2B3E20BDA5ED00C38F79 /* btnsignup.png */; };
+		578C2B4220BDA5EE00C38F79 /* btnForgotPassword.png in Resources */ = {isa = PBXBuildFile; fileRef = 578C2B3F20BDA5EE00C38F79 /* btnForgotPassword.png */; };
+		578C2B4520BE576300C38F79 /* unchecked_checkbox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 578C2B4320BE576200C38F79 /* unchecked_checkbox@2x.png */; };
+		578C2B4620BE576300C38F79 /* checked_checkbox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 578C2B4420BE576300C38F79 /* checked_checkbox@2x.png */; };
+		578C2B4820BE5A1300C38F79 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578C2B4720BE5A1300C38F79 /* SignupViewController.swift */; };
+		578C2B4A20BE5A3F00C38F79 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578C2B4920BE5A3F00C38F79 /* ForgotPasswordViewController.swift */; };
+		578C2B4D20BE68E300C38F79 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578C2B4C20BE68E300C38F79 /* Singleton.swift */; };
+		578C2B4F20BE6DE300C38F79 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578C2B4E20BE6DE300C38F79 /* Configuration.swift */; };
+		578C2B5820BEDA0000C38F79 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 578C2B5620BEDA0000C38F79 /* SWRevealViewController.m */; };
+		578C2B5A20BEDB6F00C38F79 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578C2B5920BEDB6F00C38F79 /* ContainerViewController.swift */; };
+		578C2B5C20BEDCB100C38F79 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578C2B5B20BEDCB100C38F79 /* MenuTableViewController.swift */; };
+		578C2B5E20BEE40700C38F79 /* GalleryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578C2B5D20BEE40700C38F79 /* GalleryCollectionViewController.swift */; };
+		57FDCCCB20BFB23C00E7F791 /* GalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FDCCCA20BFB23C00E7F791 /* GalleryCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5723BB0520BFCAB2000B1F65 /* PhotosUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhotosUI.framework; path = System/Library/Frameworks/PhotosUI.framework; sourceTree = SDKROOT; };
+		5723BB0620BFCAB2000B1F65 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		5723BB0920C00CB2000B1F65 /* reveal-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reveal-icon.png"; sourceTree = "<group>"; };
+		5723BB0B20C02A05000B1F65 /* ImageProcessingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcessingViewController.swift; sourceTree = "<group>"; };
+		5723BB0D20C02D5A000B1F65 /* Lock-Unlock-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lock-Unlock-icon.png"; sourceTree = "<group>"; };
+		5723BB0E20C02D5B000B1F65 /* Lock-Lock-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lock-Lock-icon.png"; sourceTree = "<group>"; };
+		5723BB1120C02E53000B1F65 /* Share-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Share-icon.png"; sourceTree = "<group>"; };
+		5723BB1220C02E54000B1F65 /* Save-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Save-icon.png"; sourceTree = "<group>"; };
+		5723BB1520C1001B000B1F65 /* CustomPhotoAlbum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPhotoAlbum.swift; sourceTree = "<group>"; };
+		5723BB1820C108B8000B1F65 /* PrivateGalleryCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateGalleryCollectionViewController.swift; sourceTree = "<group>"; };
+		5723BB1A20C108E3000B1F65 /* PrivateGalleryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateGalleryCollectionViewCell.swift; sourceTree = "<group>"; };
+		5723BB1C20C18B37000B1F65 /* refresh_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh_icon.png; sourceTree = "<group>"; };
+		5780205E2174B2D5004D1C96 /* notes-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notes-icon.png"; sourceTree = "<group>"; };
+		5780205F2174B2D5004D1C96 /* recipt-icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "recipt-icon.jpg"; sourceTree = "<group>"; };
+		578020602174B2D5004D1C96 /* password-Lock-icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "password-Lock-icon.jpg"; sourceTree = "<group>"; };
+		578020612174B2D6004D1C96 /* Utility-bills-icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Utility-bills-icon.jpg"; sourceTree = "<group>"; };
+		578020622174B2D6004D1C96 /* car-icon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "car-icon.jpeg"; sourceTree = "<group>"; };
+		578020682174D3A3004D1C96 /* settings-icon-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings-icon-512.png"; sourceTree = "<group>"; };
+		5786370F20C2D74100BA7CDC /* TheamsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheamsTableViewController.swift; sourceTree = "<group>"; };
+		5786371220C2D80B00BA7CDC /* TheamsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheamsTableViewCell.swift; sourceTree = "<group>"; };
+		5786371420C2DABA00BA7CDC /* TheamsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheamsModel.swift; sourceTree = "<group>"; };
+		5786371620C303B600BA7CDC /* gallery_icon_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gallery_icon_1.png; sourceTree = "<group>"; };
+		5786371820C304C800BA7CDC /* gallery_icon_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gallery_icon_2.png; sourceTree = "<group>"; };
+		578C2B1B20BD7BBD00C38F79 /* Pic Secure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pic Secure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		578C2B1E20BD7BBD00C38F79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		578C2B2020BD7BBD00C38F79 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		578C2B2320BD7BBD00C38F79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		578C2B2620BD7BBD00C38F79 /* Pic_Secure.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pic_Secure.xcdatamodel; sourceTree = "<group>"; };
+		578C2B2820BD7BC000C38F79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		578C2B2B20BD7BC000C38F79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		578C2B2D20BD7BC000C38F79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		578C2B3420BD7D8C00C38F79 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		578C2B3B20BDA47600C38F79 /* txtbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = txtbg.png; sourceTree = "<group>"; };
+		578C2B3D20BDA5ED00C38F79 /* btnlogin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnlogin.png; sourceTree = "<group>"; };
+		578C2B3E20BDA5ED00C38F79 /* btnsignup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnsignup.png; sourceTree = "<group>"; };
+		578C2B3F20BDA5EE00C38F79 /* btnForgotPassword.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnForgotPassword.png; sourceTree = "<group>"; };
+		578C2B4320BE576200C38F79 /* unchecked_checkbox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unchecked_checkbox@2x.png"; sourceTree = "<group>"; };
+		578C2B4420BE576300C38F79 /* checked_checkbox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checked_checkbox@2x.png"; sourceTree = "<group>"; };
+		578C2B4720BE5A1300C38F79 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		578C2B4920BE5A3F00C38F79 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		578C2B4C20BE68E300C38F79 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		578C2B4E20BE6DE300C38F79 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		578C2B5520BED9FF00C38F79 /* Pic Secure-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pic Secure-Bridging-Header.h"; sourceTree = "<group>"; };
+		578C2B5620BEDA0000C38F79 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		578C2B5720BEDA0000C38F79 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		578C2B5920BEDB6F00C38F79 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		578C2B5B20BEDCB100C38F79 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		578C2B5D20BEE40700C38F79 /* GalleryCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewController.swift; sourceTree = "<group>"; };
+		57FDCCCA20BFB23C00E7F791 /* GalleryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		578C2B1820BD7BBD00C38F79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5723BB0720BFCAB2000B1F65 /* PhotosUI.framework in Frameworks */,
+				5723BB0820BFCAB2000B1F65 /* Photos.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5723BB0420BFCAB1000B1F65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5723BB0620BFCAB2000B1F65 /* Photos.framework */,
+				5723BB0520BFCAB2000B1F65 /* PhotosUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5723BB1720C1088D000B1F65 /* PrivateGalleryCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				5723BB1820C108B8000B1F65 /* PrivateGalleryCollectionViewController.swift */,
+				5723BB1A20C108E3000B1F65 /* PrivateGalleryCollectionViewCell.swift */,
+			);
+			path = PrivateGalleryCollectionView;
+			sourceTree = "<group>";
+		};
+		5786371120C2D7E700BA7CDC /* TheamViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5786370F20C2D74100BA7CDC /* TheamsTableViewController.swift */,
+				5786371220C2D80B00BA7CDC /* TheamsTableViewCell.swift */,
+				5786371420C2DABA00BA7CDC /* TheamsModel.swift */,
+			);
+			path = TheamViewController;
+			sourceTree = "<group>";
+		};
+		578C2B1220BD7BBD00C38F79 = {
+			isa = PBXGroup;
+			children = (
+				578C2B1D20BD7BBD00C38F79 /* Pic Secure */,
+				578C2B1C20BD7BBD00C38F79 /* Products */,
+				5723BB0420BFCAB1000B1F65 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		578C2B1C20BD7BBD00C38F79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				578C2B1B20BD7BBD00C38F79 /* Pic Secure.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578C2B1D20BD7BBD00C38F79 /* Pic Secure */ = {
+			isa = PBXGroup;
+			children = (
+				578C2B5520BED9FF00C38F79 /* Pic Secure-Bridging-Header.h */,
+				578C2B1E20BD7BBD00C38F79 /* AppDelegate.swift */,
+				578C2B5120BED92F00C38F79 /* ThirdPartyLibraries */,
+				578C2B4B20BE68BD00C38F79 /* Common */,
+				578C2B3620BD8F3200C38F79 /* Images */,
+				578C2B3320BD7D5500C38F79 /* ViewControllers */,
+				578C2B2220BD7BBD00C38F79 /* Main.storyboard */,
+				578C2B2820BD7BC000C38F79 /* Assets.xcassets */,
+				578C2B2A20BD7BC000C38F79 /* LaunchScreen.storyboard */,
+				578C2B2D20BD7BC000C38F79 /* Info.plist */,
+				578C2B2520BD7BBD00C38F79 /* Pic_Secure.xcdatamodeld */,
+			);
+			path = "Pic Secure";
+			sourceTree = "<group>";
+		};
+		578C2B3320BD7D5500C38F79 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				578C2B2020BD7BBD00C38F79 /* LoginViewController.swift */,
+				578C2B3420BD7D8C00C38F79 /* BaseViewController.swift */,
+				578C2B4720BE5A1300C38F79 /* SignupViewController.swift */,
+				578C2B4920BE5A3F00C38F79 /* ForgotPasswordViewController.swift */,
+				578C2B5920BEDB6F00C38F79 /* ContainerViewController.swift */,
+				578C2B5B20BEDCB100C38F79 /* MenuTableViewController.swift */,
+				5723BB1720C1088D000B1F65 /* PrivateGalleryCollectionView */,
+				57FDCCC920BFB20200E7F791 /* GalleryCollectionViewController */,
+				5723BB0B20C02A05000B1F65 /* ImageProcessingViewController.swift */,
+				5786371120C2D7E700BA7CDC /* TheamViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		578C2B3620BD8F3200C38F79 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				578020682174D3A3004D1C96 /* settings-icon-512.png */,
+				578020622174B2D6004D1C96 /* car-icon.jpeg */,
+				5780205E2174B2D5004D1C96 /* notes-icon.png */,
+				578020602174B2D5004D1C96 /* password-Lock-icon.jpg */,
+				5780205F2174B2D5004D1C96 /* recipt-icon.jpg */,
+				578020612174B2D6004D1C96 /* Utility-bills-icon.jpg */,
+				5786371820C304C800BA7CDC /* gallery_icon_2.png */,
+				5786371620C303B600BA7CDC /* gallery_icon_1.png */,
+				5723BB1C20C18B37000B1F65 /* refresh_icon.png */,
+				5723BB1220C02E54000B1F65 /* Save-icon.png */,
+				5723BB1120C02E53000B1F65 /* Share-icon.png */,
+				5723BB0E20C02D5B000B1F65 /* Lock-Lock-icon.png */,
+				5723BB0D20C02D5A000B1F65 /* Lock-Unlock-icon.png */,
+				5723BB0920C00CB2000B1F65 /* reveal-icon.png */,
+				578C2B4420BE576300C38F79 /* checked_checkbox@2x.png */,
+				578C2B4320BE576200C38F79 /* unchecked_checkbox@2x.png */,
+				578C2B3F20BDA5EE00C38F79 /* btnForgotPassword.png */,
+				578C2B3D20BDA5ED00C38F79 /* btnlogin.png */,
+				578C2B3E20BDA5ED00C38F79 /* btnsignup.png */,
+				578C2B3B20BDA47600C38F79 /* txtbg.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		578C2B4B20BE68BD00C38F79 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				578C2B4C20BE68E300C38F79 /* Singleton.swift */,
+				578C2B4E20BE6DE300C38F79 /* Configuration.swift */,
+				5723BB1520C1001B000B1F65 /* CustomPhotoAlbum.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		578C2B5120BED92F00C38F79 /* ThirdPartyLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				578C2B5420BED9E300C38F79 /* SWRevealViewController */,
+			);
+			path = ThirdPartyLibraries;
+			sourceTree = "<group>";
+		};
+		578C2B5420BED9E300C38F79 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				578C2B5720BEDA0000C38F79 /* SWRevealViewController.h */,
+				578C2B5620BEDA0000C38F79 /* SWRevealViewController.m */,
+			);
+			path = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		57FDCCC920BFB20200E7F791 /* GalleryCollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				578C2B5D20BEE40700C38F79 /* GalleryCollectionViewController.swift */,
+				57FDCCCA20BFB23C00E7F791 /* GalleryCollectionViewCell.swift */,
+			);
+			path = GalleryCollectionViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		578C2B1A20BD7BBD00C38F79 /* Pic Secure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 578C2B3020BD7BC000C38F79 /* Build configuration list for PBXNativeTarget "Pic Secure" */;
+			buildPhases = (
+				578C2B1720BD7BBD00C38F79 /* Sources */,
+				578C2B1820BD7BBD00C38F79 /* Frameworks */,
+				578C2B1920BD7BBD00C38F79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pic Secure";
+			productName = "Pic Secure";
+			productReference = 578C2B1B20BD7BBD00C38F79 /* Pic Secure.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		578C2B1320BD7BBD00C38F79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Talha Ghous";
+				TargetAttributes = {
+					578C2B1A20BD7BBD00C38F79 = {
+						CreatedOnToolsVersion = 9.3.1;
+						LastSwiftMigration = 0930;
+					};
+				};
+			};
+			buildConfigurationList = 578C2B1620BD7BBD00C38F79 /* Build configuration list for PBXProject "Pic Secure" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 578C2B1220BD7BBD00C38F79;
+			productRefGroup = 578C2B1C20BD7BBD00C38F79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				578C2B1A20BD7BBD00C38F79 /* Pic Secure */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		578C2B1920BD7BBD00C38F79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5723BB0F20C02D5B000B1F65 /* Lock-Unlock-icon.png in Resources */,
+				578C2B4520BE576300C38F79 /* unchecked_checkbox@2x.png in Resources */,
+				5723BB1D20C18B37000B1F65 /* refresh_icon.png in Resources */,
+				578C2B2C20BD7BC000C38F79 /* LaunchScreen.storyboard in Resources */,
+				578C2B4220BDA5EE00C38F79 /* btnForgotPassword.png in Resources */,
+				5786371920C304C800BA7CDC /* gallery_icon_2.png in Resources */,
+				5723BB1320C02E54000B1F65 /* Share-icon.png in Resources */,
+				578C2B4120BDA5EE00C38F79 /* btnsignup.png in Resources */,
+				578020652174B2D6004D1C96 /* password-Lock-icon.jpg in Resources */,
+				578C2B4020BDA5EE00C38F79 /* btnlogin.png in Resources */,
+				5723BB1420C02E54000B1F65 /* Save-icon.png in Resources */,
+				578020672174B2D6004D1C96 /* car-icon.jpeg in Resources */,
+				578020632174B2D6004D1C96 /* notes-icon.png in Resources */,
+				5723BB1020C02D5B000B1F65 /* Lock-Lock-icon.png in Resources */,
+				578C2B4620BE576300C38F79 /* checked_checkbox@2x.png in Resources */,
+				578C2B2920BD7BC000C38F79 /* Assets.xcassets in Resources */,
+				578020692174D3A3004D1C96 /* settings-icon-512.png in Resources */,
+				578C2B2420BD7BBD00C38F79 /* Main.storyboard in Resources */,
+				578020642174B2D6004D1C96 /* recipt-icon.jpg in Resources */,
+				578020662174B2D6004D1C96 /* Utility-bills-icon.jpg in Resources */,
+				5786371720C303B600BA7CDC /* gallery_icon_1.png in Resources */,
+				578C2B3C20BDA47600C38F79 /* txtbg.png in Resources */,
+				5723BB0A20C00CB2000B1F65 /* reveal-icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		578C2B1720BD7BBD00C38F79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				578C2B2120BD7BBD00C38F79 /* LoginViewController.swift in Sources */,
+				578C2B4D20BE68E300C38F79 /* Singleton.swift in Sources */,
+				578C2B5C20BEDCB100C38F79 /* MenuTableViewController.swift in Sources */,
+				5723BB1620C1001B000B1F65 /* CustomPhotoAlbum.swift in Sources */,
+				578C2B5A20BEDB6F00C38F79 /* ContainerViewController.swift in Sources */,
+				5786371320C2D80B00BA7CDC /* TheamsTableViewCell.swift in Sources */,
+				578C2B3520BD7D8C00C38F79 /* BaseViewController.swift in Sources */,
+				578C2B4A20BE5A3F00C38F79 /* ForgotPasswordViewController.swift in Sources */,
+				578C2B4820BE5A1300C38F79 /* SignupViewController.swift in Sources */,
+				578C2B5E20BEE40700C38F79 /* GalleryCollectionViewController.swift in Sources */,
+				578C2B5820BEDA0000C38F79 /* SWRevealViewController.m in Sources */,
+				578C2B2720BD7BBD00C38F79 /* Pic_Secure.xcdatamodeld in Sources */,
+				5723BB1B20C108E3000B1F65 /* PrivateGalleryCollectionViewCell.swift in Sources */,
+				578C2B4F20BE6DE300C38F79 /* Configuration.swift in Sources */,
+				57FDCCCB20BFB23C00E7F791 /* GalleryCollectionViewCell.swift in Sources */,
+				5786371520C2DABA00BA7CDC /* TheamsModel.swift in Sources */,
+				5723BB1920C108B8000B1F65 /* PrivateGalleryCollectionViewController.swift in Sources */,
+				578C2B1F20BD7BBD00C38F79 /* AppDelegate.swift in Sources */,
+				5723BB0C20C02A05000B1F65 /* ImageProcessingViewController.swift in Sources */,
+				5786371020C2D74100BA7CDC /* TheamsTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		578C2B2220BD7BBD00C38F79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				578C2B2320BD7BBD00C38F79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		578C2B2A20BD7BC000C38F79 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				578C2B2B20BD7BC000C38F79 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		578C2B2E20BD7BC000C38F79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		578C2B2F20BD7BC000C38F79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		578C2B3120BD7BC000C38F79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Pic Secure/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.talha.Pic-Secure";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pic Secure/Pic Secure-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		578C2B3220BD7BC000C38F79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Pic Secure/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.talha.Pic-Secure";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pic Secure/Pic Secure-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		578C2B1620BD7BBD00C38F79 /* Build configuration list for PBXProject "Pic Secure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				578C2B2E20BD7BC000C38F79 /* Debug */,
+				578C2B2F20BD7BC000C38F79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		578C2B3020BD7BC000C38F79 /* Build configuration list for PBXNativeTarget "Pic Secure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				578C2B3120BD7BC000C38F79 /* Debug */,
+				578C2B3220BD7BC000C38F79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		578C2B2520BD7BBD00C38F79 /* Pic_Secure.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				578C2B2620BD7BBD00C38F79 /* Pic_Secure.xcdatamodel */,
+			);
+			currentVersion = 578C2B2620BD7BBD00C38F79 /* Pic_Secure.xcdatamodel */;
+			path = Pic_Secure.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 578C2B1320BD7BBD00C38F79 /* Project object */;
+}
